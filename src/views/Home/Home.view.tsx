@@ -1,5 +1,10 @@
+import { Container } from 'react-bootstrap'
+
 const Home = () => {
-  return <div>Home view</div>
+  return (
+    <Container>
+    </Container>
+  )
 }
 
 export default Home
