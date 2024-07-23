@@ -1,0 +1,69 @@
+.Accesorios,
+.Automotriz,
+.Belleza,
+.Deporte,
+.Electronica,
+.Hogar,
+.Jardineria,
+.Libros,
+.Mascotas,
+.Moda,
+.Salud,
+.VideoJuegos {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  width: auto;
+  padding: 1rem 2rem;
+  border: 1px solid #000000;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.Accesorios {
+  background: linear-gradient(to top, #4aa1bb, #0cbba3);
+}
+
+.Automotriz {
+  background: linear-gradient(to top, #cfb42d, #b13aaa);
+}
+
+.Belleza {
+  background: linear-gradient(to top, #abf03b, #df14c9);
+}
+
+.Deporte {
+  background: linear-gradient(to top, #b082c3, #a347df);
+}
+
+.Electronica {
+  background: linear-gradient(to top, #f1571f, #31f3df);
+}
+
+.Hogar {
+  background: linear-gradient(to top, #8c9706, #ee9e28);
+}
+
+.Jardineria {
+  background: linear-gradient(to top, #26a3c2, #d42261);
+}
+.Libros {
+  background: linear-gradient(to top, #ff7141, #3475af);
+}
+.Mascotas {
+  background: linear-gradient(to top, #7629c5, #995af6);
+}
+.Moda {
+  background: linear-gradient(to top, #b6264d, #a8e0e2);
+}
+.Salud {
+  background: linear-gradient(to top, #c107bc, #ad41bd);
+}
+.VideoJuegos {
+  background: linear-gradient(to top, #e4e765, #4acf72);
+}

@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: start;
+  border: 1px solid #b9b9b9;
+  flex-direction: column;
+  user-select: none;
+  width: 260px;
+  margin: 0.5rem;
+}
+
+.container:hover {
+  border: 1px solid #4d4b4b;
+}
+
+.image {
+  margin: 0 auto;
+  width: 230px;
+  height: 200px;
+  margin-top: 0.5rem;
+  border: 1px solid #b9b9b9;
+  cursor: pointer;
+}
+
+.title {
+  padding: 0 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  user-select: text;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
+.title:hover {
+  font-weight: bolder;
+}
+
+.description {
+  padding: 0 1rem;
+  line-clamp: 3;
+  font-weight: 500;
+  font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  height: 3.7rem;
+  line-height: 1.2rem;
+  user-select: text;
+  cursor: pointer;
+  text-align: justify;
+}
+
+.description:hover {
+  font-weight: 800;
+}
+
+.last_price {
+  color: #4d4d4d;
+  text-decoration: line-through;
+  cursor: pointer;
+  margin-right: 0.4rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 0.2rem 0;
+  width: 55%;
+  cursor: pointer;
+  user-select: text;
+}
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.fav {
+  color: #bb0202;
+  cursor: pointer;
+}
+
+.fav_select {
+  color: #bb0202;
+  cursor: pointer;
+}
+
+.cart {
+  cursor: pointer;
+  color: #4d4d4d;
+}
+
+.cart_select {
+  cursor: pointer;
+  color: #008516;
+}
